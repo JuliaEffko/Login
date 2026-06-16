@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal do Login */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Título */
+.login-container h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #581845; /* Vinho escuro */
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Grupos de Input */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Foco nos Inputs */
+.input-group input:focus {
+    outline: none;
+    border-color: #800020; /* Tom de Vinho */
+    box-shadow: 0 0 0 3px rgba(128, 0, 32, 0.15);
+}
+
+/* Botão de Login */
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background-color: #800020; /* Vinho Principal */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-login:hover {
+    background-color: #5c0016; /* Vinho mais escuro no hover */
+}
+
+.btn-login:active {
+    transform: scale(0.98);
+}
+
+/* Opções (Lembrar-me e Esqueci a senha) */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.options label {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+/* Estilizando o checkbox levemente */
+.options input[type="checkbox"] {
+    accent-color: #800020; /* Vinho no checkbox */
+    cursor: pointer;
+}
+
+.options a {
+    color: #800020;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.options a:hover {
+    color: #5c0016;
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #800020;
+}
