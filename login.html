@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="login-container">
@@ -21,7 +21,7 @@
                 <input type="password" id="password" name="password" placeholder="Sua senha" required>
             </div>
 
-            <button type="submit" onclick="exibirMensagem('E-mail ou senha incorretos. Tente novamente.', 'error')" class="btn-login">Acessar</button>
+            <button type="button" onclick="primeiraFuncao()" class="btn-login">Acessar</button>
 
             <div class="options">
                 <label>
@@ -34,5 +34,5 @@
         <div id="message" class="message"></div>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="correcao.js"></script>
 </html>
